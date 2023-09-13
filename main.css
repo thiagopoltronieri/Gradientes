@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .gradiente-linear {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, red, yellow);
+  }
+  
+  .gradiente-linear-45 {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(45deg, blue, green);
+  }
+  
+  .gradiente-radial {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, red, yellow);
+  }
+  
+  .gradiente-radial-elipse {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(ellipse at center, purple, pink);
+  }
+  
+  .gradiente-repetitivo-linear {
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, red, yellow 10%, green 20%);
+  }
+  
+  .gradiente-repetitivo-radial {
+    width: 200px;
+    height: 200px;
+    background-image: repeating-radial-gradient(circle, red, yellow 10%, green 20%);
+  }
+  
